@@ -1,0 +1,15 @@
+{
+  "name": "workflow-demos",
+  "version": "1.0.0",
+  "description": "Demos for agentic workflow patterns",
+  "scripts": {
+    "chain": "node --env-file=.env demo-chaining-workflow.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.12.0"
+  }
+}

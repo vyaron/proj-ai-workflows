@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Demo scratch output (live log, reports, chain/prompt files)
+.lab/
+
+# The cloned demo repository has its own git history
+repo/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
